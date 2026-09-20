@@ -1,0 +1,35 @@
+# Dependencies
+node_modules/
+*/node_modules/
+
+# Production build outputs
+dist/
+dist-ssr/
+client/dist/
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# IDE & Editor caches
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+.kilo/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Test coverage / temp
+coverage/
+.temp/
+.cache/

@@ -1,0 +1,14 @@
+{
+  "name": "syncpad",
+  "version": "1.0.0",
+  "description": "Real-time Collaborative Code Editor - MERN Stack",
+  "scripts": {
+    "dev:server": "npm --prefix server run dev",
+    "dev:client": "npm --prefix client run dev",
+    "install:all": "npm install && npm --prefix server install && npm --prefix client install",
+    "start": "node -e \"console.log('Use npm run dev:server and npm run dev:client')\""
+  },
+  "keywords": ["mern", "socketio", "monaco-editor", "collaborative-code-editor"],
+  "author": "",
+  "license": "MIT"
+}
